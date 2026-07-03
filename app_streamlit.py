@@ -24,6 +24,8 @@ import matplotlib.pyplot as plt
 
 sys.path.append(os.path.join(os.path.dirname(__file__), "src"))
 
+import preprocessing
+
 ARTIFACT_DIR = os.path.join(os.path.dirname(__file__), "artifacts")
 
 MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August"]
